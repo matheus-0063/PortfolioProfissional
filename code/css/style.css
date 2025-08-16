@@ -1,0 +1,35 @@
+/** Importando uma fonte especifica do google fonts **/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/** e a pagina inteiro, é uma camada acima do body*/
+* {
+    margin: 0;
+    padding: 0;
+    /** Com box-sizing: border-box, o navegador passa a incluir o conteúdo + padding + borda dentro do valor definido de largura e altura.
+        Isso facilita o controle do layout, porque o tamanho final do elemento não muda quando você adiciona bordas ou espaçamentos internos. **/
+    box-sizing: border-box;
+}
+
+body {
+    /** Muda a cor do fundo da pagina **/
+    background-color: #080808;
+    /** Muda a cor das letras **/
+    color: #9c9c9c;
+    /** Usa a fonte importada do google fonts **/
+    font-family: "Raleway", sans-serif;
+    /** Muda a expessura da fonte **/
+    font-weight: 400;
+}
+
+header {
+    /** Usar a medida em rem (unidade de medida relativa), deixa a nossa pagima dinamica **/
+    padding: 1rem;
+    margin: 0 2rem 0 2rem;
+    text-align: center;
+    background-color: #1b1b1b;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.nome{
+    color: #ffffff;
+}
