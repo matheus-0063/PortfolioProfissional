@@ -13,10 +13,8 @@
 body {
     /** Muda a cor do fundo da pagina **/
     background-color: #080808;
-    /** Muda a cor das letras **/
-    color: #9c9c9c;
     /** Usa a fonte importada do google fonts **/
-    font-family: "Raleway", sans-serif;
+
     /** Muda a expessura da fonte **/
     font-weight: 400;
 }
@@ -30,6 +28,68 @@ header {
     font-family: "IBM Plex Mono", monospace;
 }
 
+header h1 {
+    font-family: "Raleway", sans-serif;
+}
+
+.nav-item .nav-link {
+    /** Muda a cor das letras **/
+    color: #9c9c9c !important;
+}
+
+#bt-green{
+    background-color: #3F8E00;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+p {
+    font-family: "IBM Plex Mono", monospace;
+    color: #9c9c9c !important;
+}
+
 .nome{
     color: #ffffff;
+}
+
+#projetos{
+    background-color: #ffffff;
+}
+
+/* Seção Tecnologias */
+#tecnologias {
+    background-color: #0d0d0d; /* fundo escuro */
+}
+
+.card-tecnologia {
+    background-color: transparent; /* fundo do card transparente */
+    border: 1px solid #333; /* borda suave */
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+    color: #d1d1d1;
+    transition: all 0.3s ease;
+}
+
+.card-tecnologia:hover {
+    border-color: #00ff88; /* destaque no hover */
+    transform: translateY(-5px);
+}
+
+.card-tecnologia .aspas {
+    font-size: 3rem;
+    line-height: 1;
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.card-tecnologia p {
+    margin-top: 30px; /* espaço para as aspas */
+    font-size: 0.95rem;
+}
+
+.card-tecnologia h5 {
+    color: #fff;
 }
